@@ -1,0 +1,21 @@
+﻿Id;title;description;expected_category
+1;Mdp oublié;je n'arrive plus à me connecter à mon compte depuis ce matin ;Access
+2;Imprimante en panne;L'imprimante au troisième étage affiche un bourrage de papier en permanence;Hardware
+3;Accès au fichier impossible ;Je n'ai plus accès à mes fichiers ;Access
+4;besoin d'un pc configuré ;Un nouveau stagiaire va intégrer l'équipe IT et commencer le mardi 20. Il aurait d'un besoin au préabable configuré et pret à l'emploie.;Access
+5;Acces VPN;Impossible de me connecter au VPN depuis chez moi depuis hier soir ;Network
+6;outlook ne s'ouvre plus;Quand je clique sur outlook, la fenetre se ferme immédiatement ;Email
+7;Compte bloqué ;Mon compte est bloqué apres 3 tentatives de connexion;Access
+8;Ecran noir ;Mon ecran reste noir au démarrage meme si l'ordi tourne;Hardware
+9;Excel plante avec le VPN;Excel se ferme des que j'ouvre un fichier depuis le réseau de l'entreprise;Software
+10;Aide svp;Ca ne marche pas ;Need_review
+11;Mail ne s'envoie pas ;Lorsque j'envoie un mail celui ci ne s'envoie pas pourtant que je suis bien connecté au wifi;Email
+12;Pas de wifi;Je vois l'icone wifi dans la barre windows mais je n'ai pas acces à internet;Network
+13;Ventillateur trop bruyant;Bonjour, les ventillateurs de mon pc font trop de bruits ce qui est me dérange + chauffe vite;Hardware
+14;Bluethoot ;Ma souris sans fil n'est pas détectée par mon pc ;Hardware
+15;Installagion d'un logiciel impossible;Je veux installer une application / extension mais le pc refuse ;Access
+16;pc bug ;le pc bug ;Need_review
+17;PC latence ;Le pc est tres lent;Need_review
+18;Pas de réseau dans mon bureau;Je n'ai pas de réseau dans mon bureau, je ne peux pas utiliser ma 5G;Network
+19;Phising;Je recois des mails de paiement tres bizarre, j'ai l'impression que c'est un virus ;Security
+20;Wifi ;;Need_review
