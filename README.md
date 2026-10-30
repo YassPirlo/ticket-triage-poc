@@ -71,15 +71,4 @@ pytest -v
 # 6. Try the LLM classification
 python3 ai_classify.py
 
-The API key is stored in .env, which is listed in .gitignore and never committed.
 
-Next steps
-Connect the LLM to the triage: call it automatically for every Need_review ticket and compare the combined score with the rules-only score.
-Validate the model's output: reject any category that is not in the allowed list, and fall back to Need_review if the API fails or returns invalid JSON.
-Log every decision: store who decided (rules, ai or human), the reason and the date, as an audit trail.
-Ask clarifying questions: when a ticket is too vague, ask the user for the missing information instead of escalating directly.
-Introduce a Ticket data class if the project grows, to keep all ticket information together.
-Make the LLM provider configurable (Gemini, Azure OpenAI, a local model…).
-Limitations
-
-This is a proof of concept, not a production tool: 20 fictional tickets, no real ticketing system, and a small keyword list written by hand.
